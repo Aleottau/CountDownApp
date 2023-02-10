@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84607056AB18F44CA183953 /* Pods_CountDownApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9723FB25C4FA8E10906F3DC8 /* Pods_CountDownApp.framework */; };
+		A9DE5701296E36C300233D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DE5700296E36C300233D95 /* AppDelegate.swift */; };
+		A9DE5703296E36C300233D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DE5702296E36C300233D95 /* SceneDelegate.swift */; };
+		A9DE5705296E36C300233D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DE5704296E36C300233D95 /* ViewController.swift */; };
+		A9DE570A296E36C300233D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DE5709296E36C300233D95 /* Assets.xcassets */; };
+		A9DE570D296E36C300233D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DE570B296E36C300233D95 /* LaunchScreen.storyboard */; };
+		A9DE5715296E3FB100233D95 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DE5714296E3FB100233D95 /* TimerView.swift */; };
+		A9E8936C2975935B001D9E85 /* TimerTestXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8936B2975935B001D9E85 /* TimerTestXib.swift */; };
+		A9E8937129759398001D9E85 /* TimerTestXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E8937029759398001D9E85 /* TimerTestXib.xib */; };
+		A9E8937429759503001D9E85 /* XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8937229759503001D9E85 /* XibViewController.swift */; };
+		A9E8937529759503001D9E85 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E8937329759503001D9E85 /* XibViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7202358FA29619A7A2BDBFC6 /* Pods-CountDownApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownApp.debug.xcconfig"; path = "Target Support Files/Pods-CountDownApp/Pods-CountDownApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9723FB25C4FA8E10906F3DC8 /* Pods_CountDownApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountDownApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DE56FD296E36C300233D95 /* CountDownApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DE5700296E36C300233D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9DE5702296E36C300233D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9DE5704296E36C300233D95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9DE5709296E36C300233D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DE570C296E36C300233D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9DE570E296E36C300233D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DE5714296E3FB100233D95 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		A9E8936B2975935B001D9E85 /* TimerTestXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTestXib.swift; sourceTree = "<group>"; };
+		A9E8937029759398001D9E85 /* TimerTestXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerTestXib.xib; sourceTree = "<group>"; };
+		A9E8937229759503001D9E85 /* XibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibViewController.swift; sourceTree = "<group>"; };
+		A9E8937329759503001D9E85 /* XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
+		E9DB1048491C50B6409C9BEE /* Pods-CountDownApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownApp.release.xcconfig"; path = "Target Support Files/Pods-CountDownApp/Pods-CountDownApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DE56FA296E36C300233D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84607056AB18F44CA183953 /* Pods_CountDownApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A288A22556C6106AD309096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9723FB25C4FA8E10906F3DC8 /* Pods_CountDownApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9DE56F4296E36C300233D95 = {
+			isa = PBXGroup;
+			children = (
+				A9DE56FF296E36C300233D95 /* CountDownApp */,
+				A9DE56FE296E36C300233D95 /* Products */,
+				B299DFD5BEA88A72B2C26885 /* Pods */,
+				4A288A22556C6106AD309096 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DE56FE296E36C300233D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DE56FD296E36C300233D95 /* CountDownApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DE56FF296E36C300233D95 /* CountDownApp */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8936D29759361001D9E85 /* testXib */,
+				A9DE5700296E36C300233D95 /* AppDelegate.swift */,
+				A9DE5702296E36C300233D95 /* SceneDelegate.swift */,
+				A9DE5704296E36C300233D95 /* ViewController.swift */,
+				A9DE5709296E36C300233D95 /* Assets.xcassets */,
+				A9DE570B296E36C300233D95 /* LaunchScreen.storyboard */,
+				A9DE570E296E36C300233D95 /* Info.plist */,
+				A9DE5714296E3FB100233D95 /* TimerView.swift */,
+			);
+			path = CountDownApp;
+			sourceTree = "<group>";
+		};
+		A9E8936D29759361001D9E85 /* testXib */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8936B2975935B001D9E85 /* TimerTestXib.swift */,
+				A9E8937029759398001D9E85 /* TimerTestXib.xib */,
+				A9E8937229759503001D9E85 /* XibViewController.swift */,
+				A9E8937329759503001D9E85 /* XibViewController.xib */,
+			);
+			path = testXib;
+			sourceTree = "<group>";
+		};
+		B299DFD5BEA88A72B2C26885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7202358FA29619A7A2BDBFC6 /* Pods-CountDownApp.debug.xcconfig */,
+				E9DB1048491C50B6409C9BEE /* Pods-CountDownApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DE56FC296E36C300233D95 /* CountDownApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DE5711296E36C300233D95 /* Build configuration list for PBXNativeTarget "CountDownApp" */;
+			buildPhases = (
+				802DC3F4E52A0FA0B9F2380C /* [CP] Check Pods Manifest.lock */,
+				A9DE56F9296E36C300233D95 /* Sources */,
+				A9DE56FA296E36C300233D95 /* Frameworks */,
+				A9DE56FB296E36C300233D95 /* Resources */,
+				D4CC2AC950EC4E138259C736 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountDownApp;
+			productName = CountDownApp;
+			productReference = A9DE56FD296E36C300233D95 /* CountDownApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DE56F5296E36C300233D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A9DE56FC296E36C300233D95 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A9DE56F8296E36C300233D95 /* Build configuration list for PBXProject "CountDownApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DE56F4296E36C300233D95;
+			productRefGroup = A9DE56FE296E36C300233D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DE56FC296E36C300233D95 /* CountDownApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DE56FB296E36C300233D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E8937529759503001D9E85 /* XibViewController.xib in Resources */,
+				A9E8937129759398001D9E85 /* TimerTestXib.xib in Resources */,
+				A9DE570D296E36C300233D95 /* LaunchScreen.storyboard in Resources */,
+				A9DE570A296E36C300233D95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		802DC3F4E52A0FA0B9F2380C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CountDownApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CC2AC950EC4E138259C736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountDownApp/Pods-CountDownApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountDownApp/Pods-CountDownApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountDownApp/Pods-CountDownApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DE56F9296E36C300233D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DE5705296E36C300233D95 /* ViewController.swift in Sources */,
+				A9E8936C2975935B001D9E85 /* TimerTestXib.swift in Sources */,
+				A9E8937429759503001D9E85 /* XibViewController.swift in Sources */,
+				A9DE5701296E36C300233D95 /* AppDelegate.swift in Sources */,
+				A9DE5715296E3FB100233D95 /* TimerView.swift in Sources */,
+				A9DE5703296E36C300233D95 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9DE570B296E36C300233D95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DE570C296E36C300233D95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DE570F296E36C300233D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9DE5710296E36C300233D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DE5712296E36C300233D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7202358FA29619A7A2BDBFC6 /* Pods-CountDownApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CountDownApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alicat.moviexplorer.CountDownApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9DE5713296E36C300233D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DB1048491C50B6409C9BEE /* Pods-CountDownApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CountDownApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alicat.moviexplorer.CountDownApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DE56F8296E36C300233D95 /* Build configuration list for PBXProject "CountDownApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DE570F296E36C300233D95 /* Debug */,
+				A9DE5710296E36C300233D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DE5711296E36C300233D95 /* Build configuration list for PBXNativeTarget "CountDownApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DE5712296E36C300233D95 /* Debug */,
+				A9DE5713296E36C300233D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DE56F5296E36C300233D95 /* Project object */;
+}
